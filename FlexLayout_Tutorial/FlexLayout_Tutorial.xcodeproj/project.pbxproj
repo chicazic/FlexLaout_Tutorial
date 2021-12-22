@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0152D9277344FD00DC508F /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 6C0152D8277344FD00DC508F /* FlexLayout */; };
+		6C51255827733540006EA2C1 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 6C51255727733540006EA2C1 /* PinLayout */; };
 		E3E29885277321BB0051B4BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E29884277321BB0051B4BA /* AppDelegate.swift */; };
 		E3E29887277321BB0051B4BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E29886277321BB0051B4BA /* SceneDelegate.swift */; };
 		E3E29889277321BB0051B4BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E29888277321BB0051B4BA /* MainViewController.swift */; };
@@ -25,10 +27,12 @@
 		E3E298B5277322680051B4BA /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298B3277322680051B4BA /* UIView+Preview.swift */; };
 		E3E298B82773232C0051B4BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298B72773232C0051B4BA /* MainView.swift */; };
 		E3E298BB2773237A0051B4BA /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298BA2773237A0051B4BA /* Then */; };
-		E3E298BE2773266F0051B4BA /* KarrotFlex in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298BD2773266F0051B4BA /* KarrotFlex */; };
+		F83D137E121830611DE1A143 /* Pods_FlexLayout_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C22646BF408CBA76C23CF7 /* Pods_FlexLayout_Tutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10C22646BF408CBA76C23CF7 /* Pods_FlexLayout_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayout_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D5678A97AB1630D30FD333 /* Pods-FlexLayout_Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayout_Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-FlexLayout_Tutorial/Pods-FlexLayout_Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		E3E29881277321BB0051B4BA /* FlexLayout_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayout_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E29884277321BB0051B4BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E29886277321BB0051B4BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 		E3E298B2277322680051B4BA /* ObservableType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extension.swift"; sourceTree = "<group>"; };
 		E3E298B3277322680051B4BA /* UIView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
 		E3E298B72773232C0051B4BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E7BF7944EAF2024B38560669 /* Pods-FlexLayout_Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayout_Tutorial.release.xcconfig"; path = "Target Support Files/Pods-FlexLayout_Tutorial/Pods-FlexLayout_Tutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,21 +58,42 @@
 			files = (
 				E3E298A3277322370051B4BA /* RxCocoa in Frameworks */,
 				E3E298BB2773237A0051B4BA /* Then in Frameworks */,
-				E3E298BE2773266F0051B4BA /* KarrotFlex in Frameworks */,
 				E3E298A0277322050051B4BA /* RxFlow in Frameworks */,
 				E3E298A7277322370051B4BA /* RxSwift in Frameworks */,
+				6C51255827733540006EA2C1 /* PinLayout in Frameworks */,
 				E3E298A5277322370051B4BA /* RxRelay in Frameworks */,
+				F83D137E121830611DE1A143 /* Pods_FlexLayout_Tutorial.framework in Frameworks */,
+				6C0152D9277344FD00DC508F /* FlexLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AD5842FF02E5F80D574E92D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C22646BF408CBA76C23CF7 /* Pods_FlexLayout_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90856187D5869BE05F0D7D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40D5678A97AB1630D30FD333 /* Pods-FlexLayout_Tutorial.debug.xcconfig */,
+				E7BF7944EAF2024B38560669 /* Pods-FlexLayout_Tutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3E29878277321BB0051B4BA = {
 			isa = PBXGroup;
 			children = (
 				E3E29883277321BB0051B4BA /* FlexLayout_Tutorial */,
 				E3E29882277321BB0051B4BA /* Products */,
+				90856187D5869BE05F0D7D2B /* Pods */,
+				8AD5842FF02E5F80D574E92D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3E29898277321BD0051B4BA /* Build configuration list for PBXNativeTarget "FlexLayout_Tutorial" */;
 			buildPhases = (
+				2D303C53BD254502D29BDE89 /* [CP] Check Pods Manifest.lock */,
 				E3E2987D277321BB0051B4BA /* Sources */,
 				E3E2987E277321BB0051B4BA /* Frameworks */,
 				E3E2987F277321BB0051B4BA /* Resources */,
@@ -146,7 +173,8 @@
 				E3E298A4277322370051B4BA /* RxRelay */,
 				E3E298A6277322370051B4BA /* RxSwift */,
 				E3E298BA2773237A0051B4BA /* Then */,
-				E3E298BD2773266F0051B4BA /* KarrotFlex */,
+				6C51255727733540006EA2C1 /* PinLayout */,
+				6C0152D8277344FD00DC508F /* FlexLayout */,
 			);
 			productName = FlexLayout_Tutorial;
 			productReference = E3E29881277321BB0051B4BA /* FlexLayout_Tutorial.app */;
@@ -177,10 +205,11 @@
 			);
 			mainGroup = E3E29878277321BB0051B4BA;
 			packageReferences = (
-				E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow" */,
-				E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */,
+				E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow.git" */,
+				E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift.git" */,
 				E3E298B92773237A0051B4BA /* XCRemoteSwiftPackageReference "Then" */,
-				E3E298BC2773266F0051B4BA /* XCRemoteSwiftPackageReference "KarrotFlex" */,
+				6C51255627733540006EA2C1 /* XCRemoteSwiftPackageReference "PinLayout" */,
+				6C0152D7277344FC00DC508F /* XCRemoteSwiftPackageReference "FlexLayout.git" */,
 			);
 			productRefGroup = E3E29882277321BB0051B4BA /* Products */;
 			projectDirPath = "";
@@ -202,6 +231,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D303C53BD254502D29BDE89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexLayout_Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3E2987D277321BB0051B4BA /* Sources */ = {
@@ -287,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -342,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -354,6 +408,7 @@
 		};
 		E3E29899277321BD0051B4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D5678A97AB1630D30FD333 /* Pods-FlexLayout_Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -382,6 +437,7 @@
 		};
 		E3E2989A277321BD0051B4BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BF7944EAF2024B38560669 /* Pods-FlexLayout_Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,7 +488,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow" */ = {
+		6C0152D7277344FC00DC508F /* XCRemoteSwiftPackageReference "FlexLayout.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6C51255627733540006EA2C1 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxFlow.git";
 			requirement = {
@@ -440,7 +512,7 @@
 				kind = branch;
 			};
 		};
-		E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -456,46 +528,43 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		E3E298BC2773266F0051B4BA /* XCRemoteSwiftPackageReference "KarrotFlex" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/daangn/KarrotFlex.git";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6C0152D8277344FD00DC508F /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C0152D7277344FC00DC508F /* XCRemoteSwiftPackageReference "FlexLayout.git" */;
+			productName = FlexLayout;
+		};
+		6C51255727733540006EA2C1 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C51255627733540006EA2C1 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
 		E3E2989F277322050051B4BA /* RxFlow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow" */;
+			package = E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow.git" */;
 			productName = RxFlow;
 		};
 		E3E298A2277322370051B4BA /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxCocoa;
 		};
 		E3E298A4277322370051B4BA /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxRelay;
 		};
 		E3E298A6277322370051B4BA /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxSwift;
 		};
 		E3E298BA2773237A0051B4BA /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E3E298B92773237A0051B4BA /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
-		};
-		E3E298BD2773266F0051B4BA /* KarrotFlex */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E3E298BC2773266F0051B4BA /* XCRemoteSwiftPackageReference "KarrotFlex" */;
-			productName = KarrotFlex;
 		};
 /* End XCSwiftPackageProductDependency section */
 

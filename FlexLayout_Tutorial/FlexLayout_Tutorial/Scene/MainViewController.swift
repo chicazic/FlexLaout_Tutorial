@@ -12,6 +12,7 @@ import RxCocoa
 
 class MainViewController: UIViewController, Stepper {
     
+    // MARK: Properties
     fileprivate var mainView: MainView {
         return self.view as! MainView
     }
@@ -39,8 +40,11 @@ class MainViewController: UIViewController, Stepper {
 }
 
 extension MainViewController {
+    
+    // MARK: Bind
     private func bind() {
-        mainView.exampleTextfield.rx.text
+        mainView.exampleTextfield
+            .rx.text
             .bind(to: self.mainView.labelText)
             .disposed(by: self.disposeBag)
     }

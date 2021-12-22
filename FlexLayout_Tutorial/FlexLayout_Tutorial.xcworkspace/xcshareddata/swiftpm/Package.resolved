@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "FlexLayout",
+        "repositoryURL": "https://github.com/layoutBox/FlexLayout.git",
+        "state": {
+          "branch": "master",
+          "revision": "bed4e29009f788ff1fa5f5e850f7ae50ff878d75",
+          "version": null
+        }
+      },
+      {
         "package": "PinLayout",
         "repositoryURL": "https://github.com/layoutBox/PinLayout",
         "state": {
