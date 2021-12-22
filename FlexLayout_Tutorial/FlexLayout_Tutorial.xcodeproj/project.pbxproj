@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3E29885277321BB0051B4BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E29884277321BB0051B4BA /* AppDelegate.swift */; };
+		E3E29887277321BB0051B4BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E29886277321BB0051B4BA /* SceneDelegate.swift */; };
+		E3E29889277321BB0051B4BA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E29888277321BB0051B4BA /* MainViewController.swift */; };
+		E3E2988F277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3E2988D277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodeld */; };
+		E3E29891277321BD0051B4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E29890277321BD0051B4BA /* Assets.xcassets */; };
+		E3E29894277321BD0051B4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E29892277321BD0051B4BA /* LaunchScreen.storyboard */; };
+		E3E298A0277322050051B4BA /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = E3E2989F277322050051B4BA /* RxFlow */; };
+		E3E298A3277322370051B4BA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298A2277322370051B4BA /* RxCocoa */; };
+		E3E298A5277322370051B4BA /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298A4277322370051B4BA /* RxRelay */; };
+		E3E298A7277322370051B4BA /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298A6277322370051B4BA /* RxSwift */; };
+		E3E298AD277322610051B4BA /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298A9277322610051B4BA /* AppFlow.swift */; };
+		E3E298AE277322610051B4BA /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298AA277322610051B4BA /* AppStepper.swift */; };
+		E3E298AF277322610051B4BA /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298AB277322610051B4BA /* MainFlow.swift */; };
+		E3E298B0277322610051B4BA /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298AC277322610051B4BA /* AppStep.swift */; };
+		E3E298B4277322680051B4BA /* ObservableType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298B2277322680051B4BA /* ObservableType+Extension.swift */; };
+		E3E298B5277322680051B4BA /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298B3277322680051B4BA /* UIView+Preview.swift */; };
+		E3E298B82773232C0051B4BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E298B72773232C0051B4BA /* MainView.swift */; };
+		E3E298BB2773237A0051B4BA /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298BA2773237A0051B4BA /* Then */; };
+		E3E298BE2773266F0051B4BA /* KarrotFlex in Frameworks */ = {isa = PBXBuildFile; productRef = E3E298BD2773266F0051B4BA /* KarrotFlex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3E29881277321BB0051B4BA /* FlexLayout_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayout_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E29884277321BB0051B4BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3E29886277321BB0051B4BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3E29888277321BB0051B4BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E3E2988E277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlexLayout_Tutorial.xcdatamodel; sourceTree = "<group>"; };
+		E3E29890277321BD0051B4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E29893277321BD0051B4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3E29895277321BD0051B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E298A9277322610051B4BA /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		E3E298AA277322610051B4BA /* AppStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		E3E298AB277322610051B4BA /* MainFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
+		E3E298AC277322610051B4BA /* AppStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		E3E298B2277322680051B4BA /* ObservableType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extension.swift"; sourceTree = "<group>"; };
+		E3E298B3277322680051B4BA /* UIView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
+		E3E298B72773232C0051B4BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E2987E277321BB0051B4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E298A3277322370051B4BA /* RxCocoa in Frameworks */,
+				E3E298BB2773237A0051B4BA /* Then in Frameworks */,
+				E3E298BE2773266F0051B4BA /* KarrotFlex in Frameworks */,
+				E3E298A0277322050051B4BA /* RxFlow in Frameworks */,
+				E3E298A7277322370051B4BA /* RxSwift in Frameworks */,
+				E3E298A5277322370051B4BA /* RxRelay in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3E29878277321BB0051B4BA = {
+			isa = PBXGroup;
+			children = (
+				E3E29883277321BB0051B4BA /* FlexLayout_Tutorial */,
+				E3E29882277321BB0051B4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E29882277321BB0051B4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E29881277321BB0051B4BA /* FlexLayout_Tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E29883277321BB0051B4BA /* FlexLayout_Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				E3E298B1277322680051B4BA /* Extension */,
+				E3E298A8277322610051B4BA /* Flows */,
+				E3E298B6277322750051B4BA /* Scene */,
+				E3E29884277321BB0051B4BA /* AppDelegate.swift */,
+				E3E29886277321BB0051B4BA /* SceneDelegate.swift */,
+				E3E29890277321BD0051B4BA /* Assets.xcassets */,
+				E3E29892277321BD0051B4BA /* LaunchScreen.storyboard */,
+				E3E29895277321BD0051B4BA /* Info.plist */,
+				E3E2988D277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodeld */,
+			);
+			path = FlexLayout_Tutorial;
+			sourceTree = "<group>";
+		};
+		E3E298A8277322610051B4BA /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				E3E298A9277322610051B4BA /* AppFlow.swift */,
+				E3E298AA277322610051B4BA /* AppStepper.swift */,
+				E3E298AB277322610051B4BA /* MainFlow.swift */,
+				E3E298AC277322610051B4BA /* AppStep.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		E3E298B1277322680051B4BA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3E298B2277322680051B4BA /* ObservableType+Extension.swift */,
+				E3E298B3277322680051B4BA /* UIView+Preview.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E3E298B6277322750051B4BA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E3E298B72773232C0051B4BA /* MainView.swift */,
+				E3E29888277321BB0051B4BA /* MainViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E29880277321BB0051B4BA /* FlexLayout_Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E29898277321BD0051B4BA /* Build configuration list for PBXNativeTarget "FlexLayout_Tutorial" */;
+			buildPhases = (
+				E3E2987D277321BB0051B4BA /* Sources */,
+				E3E2987E277321BB0051B4BA /* Frameworks */,
+				E3E2987F277321BB0051B4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexLayout_Tutorial;
+			packageProductDependencies = (
+				E3E2989F277322050051B4BA /* RxFlow */,
+				E3E298A2277322370051B4BA /* RxCocoa */,
+				E3E298A4277322370051B4BA /* RxRelay */,
+				E3E298A6277322370051B4BA /* RxSwift */,
+				E3E298BA2773237A0051B4BA /* Then */,
+				E3E298BD2773266F0051B4BA /* KarrotFlex */,
+			);
+			productName = FlexLayout_Tutorial;
+			productReference = E3E29881277321BB0051B4BA /* FlexLayout_Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E29879277321BB0051B4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E3E29880277321BB0051B4BA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E3E2987C277321BB0051B4BA /* Build configuration list for PBXProject "FlexLayout_Tutorial" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3E29878277321BB0051B4BA;
+			packageReferences = (
+				E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow" */,
+				E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */,
+				E3E298B92773237A0051B4BA /* XCRemoteSwiftPackageReference "Then" */,
+				E3E298BC2773266F0051B4BA /* XCRemoteSwiftPackageReference "KarrotFlex" */,
+			);
+			productRefGroup = E3E29882277321BB0051B4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E29880277321BB0051B4BA /* FlexLayout_Tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E2987F277321BB0051B4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E29894277321BD0051B4BA /* LaunchScreen.storyboard in Resources */,
+				E3E29891277321BD0051B4BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E2987D277321BB0051B4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E2988F277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodeld in Sources */,
+				E3E29889277321BB0051B4BA /* MainViewController.swift in Sources */,
+				E3E298AF277322610051B4BA /* MainFlow.swift in Sources */,
+				E3E298B5277322680051B4BA /* UIView+Preview.swift in Sources */,
+				E3E29885277321BB0051B4BA /* AppDelegate.swift in Sources */,
+				E3E298B4277322680051B4BA /* ObservableType+Extension.swift in Sources */,
+				E3E298AD277322610051B4BA /* AppFlow.swift in Sources */,
+				E3E298B82773232C0051B4BA /* MainView.swift in Sources */,
+				E3E298B0277322610051B4BA /* AppStep.swift in Sources */,
+				E3E29887277321BB0051B4BA /* SceneDelegate.swift in Sources */,
+				E3E298AE277322610051B4BA /* AppStepper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3E29892277321BD0051B4BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E29893277321BD0051B4BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3E29896277321BD0051B4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3E29897277321BD0051B4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3E29899277321BD0051B4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L56LNTR7PZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexLayout_Tutorial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.skillStudy.FlexLayout-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E3E2989A277321BD0051B4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L56LNTR7PZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexLayout_Tutorial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.skillStudy.FlexLayout-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E2987C277321BB0051B4BA /* Build configuration list for PBXProject "FlexLayout_Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E29896277321BD0051B4BA /* Debug */,
+				E3E29897277321BD0051B4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E29898277321BD0051B4BA /* Build configuration list for PBXNativeTarget "FlexLayout_Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E29899277321BD0051B4BA /* Debug */,
+				E3E2989A277321BD0051B4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxFlow.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		E3E298B92773237A0051B4BA /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		E3E298BC2773266F0051B4BA /* XCRemoteSwiftPackageReference "KarrotFlex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daangn/KarrotFlex.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3E2989F277322050051B4BA /* RxFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E2989E277322050051B4BA /* XCRemoteSwiftPackageReference "RxFlow" */;
+			productName = RxFlow;
+		};
+		E3E298A2277322370051B4BA /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E3E298A4277322370051B4BA /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		E3E298A6277322370051B4BA /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E298A1277322370051B4BA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		E3E298BA2773237A0051B4BA /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E298B92773237A0051B4BA /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		E3E298BD2773266F0051B4BA /* KarrotFlex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E298BC2773266F0051B4BA /* XCRemoteSwiftPackageReference "KarrotFlex" */;
+			productName = KarrotFlex;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E3E2988D277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3E2988E277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodel */,
+			);
+			currentVersion = E3E2988E277321BB0051B4BA /* FlexLayout_Tutorial.xcdatamodel */;
+			path = FlexLayout_Tutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3E29879277321BB0051B4BA /* Project object */;
+}
